@@ -1276,17 +1276,40 @@ Durante el primer sprint, no llevamos a cabo pruebas en la aplicación, ya que n
 
 ![](Aspose.Words.747c5ae4-8646-44e9-99c7-3fefca4c0570.059.jpeg)
 
-**5.2.2.6.  Services Documentation Evidence for Sprint Review.**
+
+**5\.2.2.6.  Services Documentation Evidence for Sprint** Review.
+
+**\*\*Completar\*\***
+
+
+|shared/services/fastfood.service.ts||
+| :- | :- |
+|<p>![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.001.png)</p><p>![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.002.png)</p>||
+
+:
 
 
 
+
+<a name="_pjnieydt8ow1"></a><a name="_1q1c6559d3ri"></a><a name="_x0kx2zm8z8vp"></a><a name="_5grrs8kfk3e"></a><a name="_pkeqzolea6ez"></a>
 **5.2.2.7. Software Deployment Evidence for Sprint Review.**
 
+Landing page:
+
+![ref1]
 
 
 
+Aplicación web: 
+
+
+
+<a name="_8pbgtc8t6vbu"></a><a name="_vvujq35uyrsc"></a><a name="_tl521xh7xie1"></a><a name="_78m80yh9o44w"></a>
 **5.2.2.8. Team Collaboration Insights during Sprint.**
 
+A continuación, se muestran insights del repositorio en Github de la colaboración de
+
+los miembros del equipo para el desarrollo de este avance:
 
 
 
@@ -1298,9 +1321,13 @@ Durante el primer sprint, no llevamos a cabo pruebas en la aplicación, ya que n
 
 
 
-<a name="_wi0851hz6wp0"></a>5.2.3. Sprint 3
 
-<a name="_2tz1dmbg03uf"></a><a name="_6d3pv2ik8tos"></a>5.2.3.1. Sprint Planning 3
+
+
+<a name="_wi0851hz6wp0"></a>**5.2.3. Sprint 3**
+
+<a name="_2tz1dmbg03uf"></a><a name="_6d3pv2ik8tos"></a>
+**5.2.3.1. Sprint Planning 3**
 
 
 |Sprint #|Sprint 3|
@@ -1324,7 +1351,8 @@ Durante el primer sprint, no llevamos a cabo pruebas en la aplicación, ya que n
 
 
 
-<a name="_i6a3yawa594x"></a><a name="_c1f5b2b1jfit"></a>5.2.3.2. Sprint Backlog 3
+<a name="_i6a3yawa594x"></a><a name="_c1f5b2b1jfit"></a>
+**5.2.3.2. Sprint Backlog 3**
 
 
 <table><tr><th colspan="2" valign="top">Sprint #</th><th colspan="6" valign="top">Sprint 3</th></tr>
@@ -1350,7 +1378,8 @@ Durante el primer sprint, no llevamos a cabo pruebas en la aplicación, ya que n
 
 
 
-<a name="_75n1k2b0gsv1"></a><a name="_kyl9veop8xef"></a>5.2.3.3. Development Evidence for Sprint Review.
+<a name="_75n1k2b0gsv1"></a><a name="_kyl9veop8xef"></a>
+**5.2.3.3. Development Evidence for Sprint Review.**
 
 
 
@@ -1360,7 +1389,8 @@ Durante el primer sprint, no llevamos a cabo pruebas en la aplicación, ya que n
 |||||||
 
 
-<a name="_9c2xszd17p5p"></a><a name="_7a1hwvvvrol9"></a>5.2.3.4. Testing Suite Evidence for Sprint Review.
+<a name="_9c2xszd17p5p"></a><a name="_7a1hwvvvrol9"></a>
+**5.2.3.4. Testing Suite Evidence for Sprint Review.**
 
 En el alcance del sprint 3 no se han desarrollado avances en cuanto al testing de la aplicación.
 
@@ -1377,15 +1407,20 @@ En el alcance del sprint 3 no se han desarrollado avances en cuanto al testing d
 
 
 
-<a name="_v96k49zfqap3"></a><a name="_8kd6tyxbfgio"></a>5.2.3.5. Execution Evidence for Sprint Review.
+<a name="_v96k49zfqap3"></a><a name="_8kd6tyxbfgio"></a>
+**5.2.3.5. Execution Evidence for Sprint Review.**
 
 A continuación se presentan los avances realizados en el sprint 3:
 
 Landing page:
 
+![ref1]
+
+
 Aplicación web: 
 
-<a name="_59hs199v4p4u"></a><a name="_qj0yzcf3h4xo"></a>5.2.3.6. Services Documentation Evidence for Sprint Review.
+<a name="_59hs199v4p4u"></a><a name="_qj0yzcf3h4xo"></a>
+**5.2.3.6. Services Documentation Evidence for Sprint Review.**
 
 En esta sección se presentarán los endpoints trabajados en el presente sprint y se adjuntan capturas de las acciones CRUD realizadas con
 
@@ -1396,28 +1431,59 @@ Postman:
 | :- | :- | :- |
 |Endpoint URL|http://localhost:8105/||
 |Método|URL de ejemplo|Evidencia|
-|CREATE|||
-|READ|||
-|UPDATE|||
-|DELETE|||
+|CREATE|<p><http://localhost:8080/api/v1/recipes></p><p>{</p><p>`    `"name":"Ceviche",</p><p>`    `"photo":"photoceviche.com",</p><p>`    `"duration":30,</p><p>`    `"stars": 4 ,</p><p>`    `"description":"Una comida peruana bendecida del mar, donde puedes deleitar de un sabor unico",</p><p>`    `"preparation" : "Se cocina mediante la coccion de la acidez de limones, donde ... "</p><p>}</p><p></p>|![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.007.png)|
+|READ|<p><http://localhost:8080/api/v1/recipes></p><p></p>|![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.008.png)|
+|UPDATE|<p><http://localhost:8080/api/v1/recipes/2></p><p></p>|![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.009.png)|
+|DELETE|<p><http://localhost:8080/api/v1/recipes/2></p><p></p>|![](Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.010.png)|
 
 
-<a name="_iubkpdm3dq9"></a><a name="_v6lc4mxg469n"></a>5.2.3.7. Software Deployment Evidence for Sprint Review.
 
-Tanto en el sprint 1 y el sprint 2 se ha utilizado Netlify para el despliegue del landing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a name="_msbgy7d1m4ko"></a><a name="_v6lc4mxg469n"></a>
+**5.2.3.7. Software Deployment Evidence for Sprint Review.**
+
+Se siguio utilizando Netlify para el despliegue del landing
 
 page y la aplicación web. Para el backend API se ha utilizado Github.
 
-<a name="_jufesxt1wmzw"></a><a name="_5b0a7xtr0p74"></a>5.2.3.8. Team Collaboration Insights during Sprint.
+<a name="_jufesxt1wmzw"></a><a name="_5b0a7xtr0p74"></a>
+**5.2.3.8. Team Collaboration Insights during Sprint.**
 
 A continuación se presentan capturas de los insights del repositorio de la aplicación web y del Backend API en Github:
 
 
-<a name="_932jnho7ty2v"></a><a name="_b02mattm0qpm"></a>5.3. Validation Interviews.
+<a name="_932jnho7ty2v"></a><a name="_b02mattm0qpm"></a>
+**5.3. Validation Interviews.**
 
-<a name="_44w2ik5mlo5s"></a><a name="_sq1ttriu4x41"></a>5.3.1. Diseño de Entrevistas..
+<a name="_44w2ik5mlo5s"></a><a name="_sq1ttriu4x41"></a>
+**5.3.1. Diseño de Entrevistas..**
 
-- Entrevista para el usuario
+**Entrevista para el usuario**
+
 - ¿Cuál es su nombre y edad?
 - ¿Con cuánta frecuencia entras a usar un aplicativo de recetas?
 - ¿Qué es lo que más te gusta de la página de recetas?
@@ -1427,7 +1493,9 @@ A continuación se presentan capturas de los insights del repositorio de la apli
 - ¿Consideras si hay algunas correcciones que se podría mejorar en la página en términos de diseño o usabilidad?
 - ¿Consideras que falta alguna acción adicional a la página? Si es así, ¿Qué acción sería?
 - ¿Tienes alguna sugerencia o comentario adicional con respecto a nuestra página de recetas?
-- Entrevista para el usuario Cocinero
+
+**Entrevista para los Cocineros**
+
 - ¿Cuál es su nombre y edad?
 - ¿Cómo consideras tu experiencia en la página de recetas?
 - ¿Cómo describirías la calidad de la página y presentación al momento de implementar las recetas?
@@ -1436,9 +1504,52 @@ A continuación se presentan capturas de los insights del repositorio de la apli
 - ¿Hay alguna función o característica que te gustaría ver agregada a la página para mejorar tu experiencia como cocinero?
 - ¿Tienes alguna sugerencia o comentario adicional sobre la página que te gustaría compartir, teniendo en cuenta tu experiencia como cocinero?
 
-<a name="_fjwsx5x8bqu"></a>5.3.2. Registro de Entrevistas.
+<a name="_fjwsx5x8bqu"></a>
+**5.3.2. Registro de Entrevistas.**
 
-<a name="_q0rp9fxqlgi2"></a><a name="_mornse6l3n6w"></a>5.3.3. Evaluaciones según heurísticas..
+**Segmento objetivo: Usuarios**
+
+Entrevista: \*\*Nombre\*\* - x años - Lima
+
+Url del video:
+
+Resumen:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+**Segmento objetivo: Cocineros**
+
+Entrevista: Maria Alejandra Tipiani Vergaray - 22 años - Lima
+
+Url del video: <https://drive.google.com/file/d/1eL1mbDURBcdLhDcu7w0WOmv9EYmATM-O/view?usp=sharing>
+
+Resumen:
+
+Alejandra tuvo una experiencia muy positiva utilizando la página web para cocineros. Como cocinera, encontró que la plataforma era muy didáctica y apreció la rapidez con la que podía acceder a recetas, incluso siendo una experta en la cocina. Valoró la diversidad de recetas compartidas por diferentes personas en la plataforma. Además, le entusiasmó la posibilidad de generar ingresos gracias a sus propias recetas y el soporte disponible las 24 horas.
+
+En cuanto a la calidad de la página, Alejandra la consideró excelente. La encontró fácil de entender, con una disposición visual ordenada que facilitaba el aprendizaje, especialmente en la navegación inicial. Sugirió que sería beneficioso agregar más imágenes a las recetas, incluyendo fotos de los ingredientes y las cantidades utilizadas, así como imágenes del resultado final de cada plato.
+
+Alejandra también destacó la facilidad de crear recetas en la plataforma, destacando las múltiples opciones para editar, eliminar, agregar y actualizar información como el nombre de la receta, la duración de la preparación y la calificación. Además, expresó su interés en la posibilidad de que se implemente un foro para la comunidad, que permitiría la interacción entre cocineros y usuarios.
+
+Por último, Alejandra recomendó un cambio en el color de fondo de la parte superior de la página web para hacer que el logotipo se destaque de manera más efectiva.
+
+<a name="_q0rp9fxqlgi2"></a><a name="_mornse6l3n6w"></a>
+**5.3.3. Evaluaciones según heurísticas..**
+
+
 
 
 CONCLUSIONES:
@@ -1467,4 +1578,11 @@ Empresa Peruana de Servicios Editoriales (2019).  Publicacion Oficial - Diario O
 
 The Gourmet Journal (n.d). Recetas Gourmet. Recuperado de: <https://www.thegourmetjournal.com/> [Consulta: 29 de Setiembre del 2023].
 
+[ref1]: Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.003.png
+[Texto
 
+Descripción generada automáticamente]: Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.004.png
+[ref2]: Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.005.png
+[Texto
+
+Descripción generada automáticamente]: Aspose.Words.52c04d0a-e827-4cd8-ac52-45cd58a0f841.006.png
